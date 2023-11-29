@@ -23,7 +23,7 @@ services:
       - emongo
 
   webapi:
-  restart: always
+    restart: always
     build:
       context: ./javaapi
     ports:
